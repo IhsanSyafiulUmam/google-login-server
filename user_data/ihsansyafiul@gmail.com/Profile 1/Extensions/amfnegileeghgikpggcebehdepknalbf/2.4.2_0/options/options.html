@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hunchly License Information</title>
+    <style type="text/css">
+      :root {
+        --lblue: #85d0f6;
+        --lightgray: #dcdcdc;
+        --line: #ededed;
+        --bg: #ccc;
+        --greenHunchly: #278904;
+        --lgreen: #7ade4a;
+        --red: #ff004d;
+        --yellow: #ffb100;
+        --text: #483C4A;
+        --lightText: #6F6B7B;
+        --blueHunchly: #3E6FD8;
+      }
+
+      body {
+        background: var(--blueHunchly);
+      }
+
+      .body {
+        padding: 3em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: #fff;
+        transform: translate(-50%, -50%);
+        border-style: solid;
+        border-width: 5px;
+        border-color: #fff;
+        border-radius: 5px;
+        box-shadow: 7px 7px rgba(0, 0, 0, 0.3);
+      }
+
+      .body h1 {
+        margin-top: 0px;
+      }
+
+      .license-btn {
+        display: inline-block;
+        margin-top: 6px;
+        width: 112px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        color: #fff;
+        background-color: var(--greenHunchly);
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .license-btn.opening {
+        cursor: not-allowed;
+      }
+
+      .license-btn:hover,
+      .license-btn.opening {
+        background-color: var(--lgreen);
+      }
+
+      .valid {
+        background-color: var(--greenHunchly);
+      }
+
+      .failed {
+        background-color: var(--red);
+      }
+
+      .expires_soon {
+        background-color: var(--yellow);
+      }
+
+      .label {
+        padding: 2px 5px;
+        color: #fff;
+      }
+
+      *:focus-visible {
+        border: 1px solid red;
+        outline-color: red;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="options.js"></script>
+  </body>
+</html>

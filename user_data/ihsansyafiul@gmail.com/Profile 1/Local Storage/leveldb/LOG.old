@@ -1,0 +1,51 @@
+2024/05/08-14:47:15.424 3d03 Reusing MANIFEST /Users/ftiuii/Library/Application Support/Google/Chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2024/05/08-14:47:15.427 3d03 Recovering log #6
+2024/05/08-14:47:15.428 3d03 Reusing old log /Users/ftiuii/Library/Application Support/Google/Chrome/Profile 1/Local Storage/leveldb/000006.log 
+2024/05/08-14:47:31.717 3a03 Level-0 table #10: started
+2024/05/08-14:47:31.741 3a03 Level-0 table #10: 45345 bytes OK
+2024/05/08-14:47:31.764 3a03 Delete type=0 #6
+2024/05/08-14:49:45.171 3a03 Level-0 table #12: started
+2024/05/08-14:49:45.195 3a03 Level-0 table #12: 164110 bytes OK
+2024/05/08-14:49:45.238 3a03 Delete type=0 #9
+2024/05/08-14:51:20.851 3a03 Level-0 table #14: started
+2024/05/08-14:51:20.874 3a03 Level-0 table #14: 134635 bytes OK
+2024/05/08-14:51:20.912 3a03 Delete type=0 #11
+2024/05/08-15:53:14.090 3a03 Level-0 table #16: started
+2024/05/08-15:53:14.123 3a03 Level-0 table #16: 35548 bytes OK
+2024/05/08-15:53:14.165 3a03 Delete type=0 #13
+2024/05/08-15:53:14.203 3a03 Compacting 4@0 + 1@1 files
+2024/05/08-15:53:14.271 3a03 Generated table #17@0: 51 keys, 300994 bytes
+2024/05/08-15:53:14.272 3a03 Compacted 4@0 + 1@1 files => 300994 bytes
+2024/05/08-15:53:14.309 3a03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/08-15:53:14.310 3a03 Delete type=2 #14
+2024/05/08-15:53:14.310 3a03 Delete type=2 #16
+2024/05/08-15:53:14.310 3a03 Delete type=2 #7
+2024/05/08-15:53:14.311 3a03 Delete type=2 #12
+2024/05/08-15:53:14.311 3a03 Delete type=2 #10
+2024/05/08-16:39:09.166 3a03 Level-0 table #19: started
+2024/05/08-16:39:09.192 3a03 Level-0 table #19: 30931 bytes OK
+2024/05/08-16:39:09.235 3a03 Delete type=0 #15
+2024/05/08-16:58:07.693 3a03 Level-0 table #21: started
+2024/05/08-16:58:07.715 3a03 Level-0 table #21: 23966 bytes OK
+2024/05/08-16:58:07.754 3a03 Delete type=0 #18
+2024/05/08-16:59:58.710 3a03 Level-0 table #23: started
+2024/05/08-16:59:58.735 3a03 Level-0 table #23: 65393 bytes OK
+2024/05/08-16:59:58.775 3a03 Delete type=0 #20
+2024/05/08-20:45:30.883 3a03 Level-0 table #25: started
+2024/05/08-20:45:30.907 3a03 Level-0 table #25: 31842 bytes OK
+2024/05/08-20:45:30.947 3a03 Delete type=0 #22
+2024/05/08-20:45:30.950 3a03 Compacting 4@0 + 1@1 files
+2024/05/08-20:45:30.987 3a03 Generated table #26@0: 75 keys, 297020 bytes
+2024/05/08-20:45:30.987 3a03 Compacted 4@0 + 1@1 files => 297020 bytes
+2024/05/08-20:45:31.024 3a03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/08-20:45:31.025 3a03 Delete type=2 #17
+2024/05/08-20:45:31.025 3a03 Delete type=2 #21
+2024/05/08-20:45:31.025 3a03 Delete type=2 #23
+2024/05/08-20:45:31.025 3a03 Delete type=2 #25
+2024/05/08-20:45:31.025 3a03 Delete type=2 #19
+2024/05/08-21:19:17.950 3a03 Level-0 table #28: started
+2024/05/08-21:19:17.974 3a03 Level-0 table #28: 24206 bytes OK
+2024/05/08-21:19:18.015 3a03 Delete type=0 #24
+2024/05/09-00:17:53.344 3a03 Level-0 table #30: started
+2024/05/09-00:17:53.367 3a03 Level-0 table #30: 24264 bytes OK
+2024/05/09-00:17:53.408 3a03 Delete type=0 #27

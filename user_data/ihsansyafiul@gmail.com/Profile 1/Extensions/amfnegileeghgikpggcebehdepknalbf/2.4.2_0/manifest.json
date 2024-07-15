@@ -1,0 +1,62 @@
+{
+   "action": {
+      "default_icon": "icons/logo.png",
+      "default_popup": "popup/popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "default": "Alt+H",
+            "mac": "Alt+H"
+         }
+      },
+      "capture-page": {
+         "description": "Capture page",
+         "suggested_key": {
+            "default": "Alt+S",
+            "mac": "Alt+S"
+         }
+      },
+      "take-note": {
+         "description": "Take note",
+         "suggested_key": {
+            "default": "Alt+A",
+            "mac": "Alt+A"
+         }
+      },
+      "toggle-auto-capture": {
+         "description": "Toggle auto-capture",
+         "suggested_key": {
+            "default": "Alt+Q",
+            "mac": "Alt+Q"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "browser-polyfill.min.js", "content-script/mark.min.js", "content-script/mutations.js", "content-script/content.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Hunchly is a tool to capture and organize online data for your investigations. Requires the Hunchly app (https://www.hunch.ly)",
+   "differential_fingerprint": "1.726007308a15e73fd52d9dee8217c1eb4767ef492e8727e537260b9ac6ad11ea",
+   "host_permissions": [ "\u003Call_urls>", "https://*/*", "http://*/*" ],
+   "icons": {
+      "1": "icons/logo1.png",
+      "128": "icons/logo128.png",
+      "16": "icons/logo16.png",
+      "48": "icons/logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2noU9cjor9Qli1dAd2+qNCLYRNXxVLD+PG+01vzUzf09RRz50mTfO3bGpf9gbjG/nNZgwYFkG5+r2LTQuebdv1NLIue9xGvjropeTR/Mz+U/98sBfmnOXM/eXApHuqhJoecs4ixRNYZJ5Vw1ZvQ8dB+nMTbcC3IXu1QKR01uDfK23g+pT6YEoScHdjThrg9AhCyb3kDKhDzOgxwfPRvQusiO0v/qWL9GuySxc+Du9jMACPIXd21GGcqA0Pwzuc71HghsnjwratvtfliTP0sfiAio2jGV872cqYxpP0gY+MQxGEjXJAL4q0aqeHqPyQPnDlTnXUy2n90WBOsaxsRxuQIDAQAB",
+   "manifest_version": 3,
+   "name": "Hunchly 2.0",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "contextMenus", "activeTab", "pageCapture", "tabs", "storage", "unlimitedStorage", "alarms", "downloads", "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.2"
+}

@@ -1,0 +1,6 @@
+2024/05/08-15:04:27.726 8307 Creating DB /Users/ftiuii/Library/Application Support/Google/Chrome/Profile 1/IndexedDB/https_developer.chrome.com_0.indexeddb.leveldb since it was missing.
+2024/05/08-15:04:27.765 8307 Reusing MANIFEST /Users/ftiuii/Library/Application Support/Google/Chrome/Profile 1/IndexedDB/https_developer.chrome.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/08-16:38:56.779 8307 Level-0 table #5: started
+2024/05/08-16:38:56.800 8307 Level-0 table #5: 2429 bytes OK
+2024/05/08-16:38:56.837 8307 Delete type=0 #3
+2024/05/08-16:38:56.838 8307 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
